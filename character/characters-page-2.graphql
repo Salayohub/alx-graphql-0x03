@@ -1,0 +1,12 @@
+//using the characters(page: Int) field to fetch the list of characters.
+
+  query {
+  characters(page: 2) {
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}
